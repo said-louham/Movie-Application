@@ -1,0 +1,73 @@
+/* .ListerMovies{
+
+} */
+/* .allmovie{
+    display: grid;
+    grid-template-columns: repeat(4 ,minmax(200px,240px));
+    grid-template-rows: auto;
+    justify-content: center;
+    gap: 15px;
+    /* border-bottom: 2px solid #ccc; */
+    /* margin-bottom: 20px; */
+    /* align-items: center; */
+/* } */
+
+/* 
+.allseries{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px,240px));
+    grid-template-rows: auto;
+    gap: 15px;
+    justify-content: center;
+
+} */
+.card-info{
+    font-weight:bolder;
+    background:#bebebe;
+    height: 55px;
+    border-bottom-right-radius:8px ;
+    text-align: center;
+}
+.allmovie,.allseries{
+    margin-bottom: 20px;
+}
+
+.serie-img img{
+    width: 100%;
+    height: 300px;
+}
+.series-info{
+    font-weight:bolder;
+    background:#bebebe;
+    height: 50px;
+    border-bottom-right-radius:8px ;
+    text-align: center;
+}
+.ListerMovies{
+background-color:	#666980;
+padding: 0 30px;
+/* border: 10px solid black; */
+
+}
+.ListerMovies h4{
+    margin-left: 7rem;
+    font-size:x-large;
+    padding: 20px 0px;
+}
+.allmovie .movie{
+    transition:all 0.3ms;
+    margin: 0 5px;
+}
+.allmovie .allseries{
+    margin: 0 15px;
+
+}
+.allseries .seiers-card{
+    margin: 0 5px;
+}
+.allmovie .movie:hover,.allseries .seiers-card:hover{
+transform: scale(1.1);
+transition: all 30;
+}
+
+

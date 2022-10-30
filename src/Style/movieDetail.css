@@ -1,0 +1,49 @@
+.movie-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:	#666980;
+    /* padding-top: 40px ; */
+    color: white;
+    height: 500px;
+    padding:20px 20px;
+}
+.inline{
+    display: inline-flex;
+    color: rgb(34, 34, 93);
+    font-weight:bold;
+}
+.inline p{
+    padding: 10px 0;
+    margin: 15px 0;
+}
+.fa-star{
+    color: orange;
+    padding:0 10px ;
+
+}
+.fa-thumbs-up{
+    color: antiquewhite;
+    padding:0 10px ;
+
+}
+.fa-film{
+    color: #fff;
+    padding:0 10px ;
+}
+span{
+    color:rgb(34, 34, 93);
+    font-weight:bold;
+    padding-left:20px ;
+}
+.left-side{
+    padding-top: 40px;
+}
+
+img{
+    height: 350px;
+}
+.info div{
+    margin-top: 10px;
+    font-size:larger;
+
+}

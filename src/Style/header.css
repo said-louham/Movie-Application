@@ -1,0 +1,42 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    background: #db0000;
+    padding:  20px 30px;
+}
+.Header i{
+    width: 20px;
+    height: 20px;
+    color: 	#564d4d;
+}
+.Header .titre{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: x-large;
+}
+.search{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.search input{
+    width: 100%;
+    outline: 0; 
+    border: 0 ;
+    padding: 0 10px;
+}
+.fa-search{
+    vertical-align: middle;
+
+}
+.search button{
+    padding: 0 8px;
+    font-size: 20px;
+    height: 38px;
+    outline: 0;
+    border: none;
+}
+form{
+    width: 70%;
+    display: flex;
+}
